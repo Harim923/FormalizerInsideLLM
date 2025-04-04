@@ -45,7 +45,7 @@ It cannot invent facts. It can only reason from the framework.
 
 ## 📚 Dependencies
 
-- Axiom files from [`Axiom-Atlas`](https://github.com/your-username/Axiom-Atlas)
+- Axiom files from [`Axiom-Atlas`](https://github.com/Harim923/Axiom-Atlas)
 - OpenAI / GPT-4 or other LLM interface (can be local)
 
 ---
