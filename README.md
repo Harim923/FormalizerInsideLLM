@@ -5,6 +5,10 @@
 
 ---
 
+📄 [Download the ProofGPT Whitepaper (PDF)](./paper/ProofGPT__whitepaper.pdf)
+
+---
+
 ## 🧠 What is ProofGPT?
 
 ProofGPT is not a theorem prover.  
@@ -76,6 +80,7 @@ response = proofgpt(reasoning_framework, axioms, problem)
 # Step 4: Output result
 print(response)
 ```
+
 
 ---
 
