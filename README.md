@@ -20,7 +20,7 @@ It reasons **from the inside**, with nothing but logical rules you give it.
 
 ProofGPT takes in:
 
-- A set of axioms (from [Axiom Atlas](https://github.com/your-username/Axiom-Atlas))
+- A set of axioms (from [Axiom Atlas](https://github.com/Harim923/Axiom-Atlas))
 - A target problem (e.g., a geometry conjecture)
 - A recursive reasoning prompt with clear logical constraints
 
