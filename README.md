@@ -76,3 +76,21 @@ response = proofgpt(reasoning_framework, axioms, problem)
 # Step 4: Output result
 print(response)
 ```
+
+---
+
+## 👤 Creator
+
+**ProofGPT** was designed and developed by Harim Yoo, April 2025.  
+This project is open-source and intended to inspire new directions in AI reasoning research.
+
+If you build upon this project, please acknowledge the original author.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+Feel free to use, modify, and distribute, but give credit where it's due. 🙌
+
+
