@@ -86,7 +86,8 @@ print(response)
 
 ## 👤 Creator
 
-**ProofGPT** was designed and developed by Harim Yoo, April 2025.  
+**ProofGPT** was designed and developed by Harim Yoo, April 2025.
+Harim Yoo is currently a Graduate student at Texas A&M university for Distance M.S in Mathematics.
 This project is open-source and intended to inspire new directions in AI reasoning research.
 
 If you build upon this project, please acknowledge the original author.
