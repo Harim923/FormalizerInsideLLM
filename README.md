@@ -67,6 +67,7 @@ formalizer-inside-llm/
 ```
 
 🔄 Example Workflow
+
 ```plaintext
 # Step 1: Load axioms
 axioms = load_axioms("hilbert.json")  # from Axiom Atlas
@@ -82,6 +83,7 @@ print(response)
 ```
 
 👤 Creator
+
 FormalizerInsideLLM was created by Harim Yoo in April 2025.
 Harim is a graduate student in mathematics at Texas A&M University (Distance M.S. Program).
 
@@ -92,5 +94,6 @@ embedded inside a large language model.
 If you build upon this work, please acknowledge the original author.
 
 📜 License
+
 This project is licensed under the MIT License.
 Use it, remix it, publish with it—but give credit. 
