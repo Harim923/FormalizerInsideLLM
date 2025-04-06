@@ -5,7 +5,7 @@
 
 ---
 
-📄 [Download the Whitepaper (PDF)](./paper/FormalizerinsideLLM__whitepaper.pdf)
+📄 [Download the Whitepaper (PDF)](./paper/FormalizerInsideLLM_whitepaper.pdf)
 
 ---
 
