@@ -1,20 +1,22 @@
-# ProofGPT
+# FormalizerInsideLLM
 
 **Axiomatic Reasoning with LLMs**  
 *A framework where GPT thinks, stops, and proves—within axioms.*
 
 ---
 
-📄 [Download the ProofGPT Whitepaper (PDF)](./paper/ProofGPT__whitepaper.pdf)
+📄 [Download the Whitepaper (PDF)](./paper/FormalizerInsideLLM__whitepaper.pdf)
 
 ---
 
-## 🧠 What is ProofGPT?
+## 🧠 What is FormalizerInsideLLM?
 
-ProofGPT is not a theorem prover.  
-It is a **reasoning agent** that lives inside a world of axioms.  
-Unlike symbolic engines, it doesn't rely on external proof systems—  
-It reasons **from the inside**, with nothing but logical rules you give it.
+**FormalizerInsideLLM** is not a symbolic theorem prover.  
+It is a **reasoning agent** that lives inside a world of axioms.
+
+Originally developed as **ProofGPT**, the project was renamed to reflect its deeper identity:
+> a **formal logic engine embedded within a large language model**,  
+> capable of disciplined, axiom-bound reasoning—not just probabilistic generation.
 
 > **No tricks. No prior knowledge. Just axioms.**
 
@@ -22,81 +24,73 @@ It reasons **from the inside**, with nothing but logical rules you give it.
 
 ## 🔧 How It Works
 
-ProofGPT takes in:
+FormalizerInsideLLM takes in:
 
 - A set of axioms (from [Axiom Atlas](https://github.com/Harim923/Axiom-Atlas))
 - A target problem (e.g., a geometry conjecture)
 - A recursive reasoning prompt with clear logical constraints
 
-And it returns:
+And returns:
 
-- A structured proof with explicit axiom IDs
-- Or declares:  
-  `"The proof is undecidable with the current axioms."`
+- ✅ A structured proof with explicit axiom references  
+- ❌ Or: `"The proof is undecidable with the current axioms."`
 
 ---
 
 ## ✨ Why It Matters
 
 Most LLMs hallucinate.  
-**ProofGPT doesn’t—because it is bound.**  
-It cannot invent facts. It can only reason from the framework.
+**FormalizerInsideLLM doesn’t—because it is bound.**
 
-> This is not about solving.  
-> This is about showing that LLMs **can think** if we let them do so **under discipline**.
+It cannot invent facts. It can only reason from what it's given.  
+This is not about solving problems quickly.  
+This is about showing that LLMs **can think**—if we let them operate under discipline.
 
 ---
 
 ## 📚 Dependencies
 
-- Axiom files from [`Axiom-Atlas`](https://github.com/Harim923/Axiom-Atlas)
-- OpenAI / GPT-4 or other LLM interface (can be local)
+- Axiom files from [`Axiom-Atlas`](https://github.com/Harim923/Axiom-Atlas)  
+- GPT-4 or another LLM interface (OpenAI API or local model)
 
 ---
 
 ## 📁 Repository Structure
 
 ```plaintext
-proofgpt/
-├── prompts/ # Framework prompt templates
-├── experiments/ # Problem-specific JSON or markdown logs
-├── paper/ # Draft paper files
-├── runner.py # CLI or API interface to run proofs
+formalizer-inside-llm/
+├── prompts/         # Framework prompt templates
+├── experiments/     # Problem-specific logs or runs
+├── paper/           # Draft whitepaper files
+├── runner.py        # CLI or API interface to run the framework
 └── README.md
 ```
 
-## 🔄 Example Workflow
-
-```bash
+🔄 Example Workflow
+```plaintext
 # Step 1: Load axioms
 axioms = load_axioms("hilbert.json")  # from Axiom Atlas
 
 # Step 2: Define your problem
 problem = "Prove that in triangle ABC, at least one of AML, BKM, CLK has area ≤ 1/4 area(ABC)"
 
-# Step 3: Run ProofGPT
-response = proofgpt(reasoning_framework, axioms, problem)
+# Step 3: Run Formalizer
+response = formalizer(reasoning_framework, axioms, problem)
 
 # Step 4: Output result
 print(response)
 ```
 
+👤 Creator
+FormalizerInsideLLM was created by Harim Yoo in April 2025.
+Harim is a graduate student in mathematics at Texas A&M University (Distance M.S. Program).
 
----
+This project was originally introduced as ProofGPT,
+but rebranded to better express its identity as a formal reasoning engine
+embedded inside a large language model.
 
-## 👤 Creator
+If you build upon this work, please acknowledge the original author.
 
-**ProofGPT** was designed and developed by Harim Yoo, April 2025.
-Harim Yoo is currently a Graduate student at Texas A&M university for Distance M.S in Mathematics.
-This project is open-source and intended to inspire new directions in AI reasoning research.
-
-If you build upon this project, please acknowledge the original author.
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.  
-Feel free to use, modify, and distribute, but give credit where it's due. 🙌
-
-
+📜 License
+This project is licensed under the MIT License.
+Use it, remix it, publish with it—but give credit. 
