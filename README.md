@@ -93,6 +93,12 @@ embedded inside a large language model.
 
 If you build upon this work, please acknowledge the original author.
 
+> 📝 This framework was originally introduced as **ProofGPT**.  
+> The name has since been updated to **FormalizerInsideLLM** to better reflect its function:  
+> an axiomatic reasoning engine embedded within large language models.  
+> Some original files and notes are preserved for reference.
+
+
 📜 License
 
 This project is licensed under the MIT License.
