@@ -15,4 +15,4 @@ the current axiom set lacks a mechanism to preserve cyclicity under arbitrary qu
 No derivable rule to guarantee cyclic property propagation → system halts.
 
 **Result:**  
-ProofGPT declares this problem undecidable under the current axiom framework.
+Formalizer(previously known as ProofGPT) declares this problem undecidable under the current axiom framework.
