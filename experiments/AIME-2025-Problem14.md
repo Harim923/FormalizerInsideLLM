@@ -1,4 +1,4 @@
-# AIME 2024 – Pentagon Distance Minimization (Undecidable)
+# AIME 2025 – Pentagon Distance Minimization (Undecidable)
 
 **Problem:**  
 Let ABCDE be a convex pentagon with AB = 14, BC = 7, CD = 24, DE = 13, EA = 26, and ∠B = ∠E = 60°.  
