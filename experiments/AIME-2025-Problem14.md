@@ -14,3 +14,7 @@ Undecidable.
 
 **Axiom Trace:** `[]`  
 **Result:** ❌ **Undecidable**
+
+---
+
+This is exactly what we want. No relevent axiom, so stop reasoning from the given axiom set.
