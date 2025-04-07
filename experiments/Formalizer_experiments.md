@@ -1,4 +1,4 @@
-# 🧪 ProofGPT Experiment Log
+# 🧪 Formalizer Experiment Log
 **Date:** 2025-04-05
 
 This markdown documents formal reasoning experiments using ProofGPT with various axiom sets and GPT models.
