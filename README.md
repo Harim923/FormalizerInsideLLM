@@ -19,7 +19,6 @@ Originally developed as **ProofGPT**, the project was renamed to reflect its dee
 > capable of disciplined, axiom-bound reasoning—not just probabilistic generation.
 
 > **No tricks. No prior knowledge. Just axioms.**
-> It worked for GPT 4o(tested on early April 2025), Gemini Pro 1.5.(tested on April 09 2025) It did not hallucinate. LLM reasoned and stopped generating sentences, when requested within a framework.
 
 ---
 
@@ -52,7 +51,7 @@ This is about showing that LLMs **can think**—if we let them operate under dis
 ## 📚 Dependencies
 
 - Axiom files from [`Axiom-Atlas`](https://github.com/Harim923/Axiom-Atlas)  
-- GPT-4 or another LLM interface (OpenAI API or local model)
+- GPT-4 or another LLM interface (OpenAI API or local model) : Specifically, it worked for GPT-4o(tested on early April 2025), Gemini Pro 1.5.(tested on April 09 2025)
 
 ---
 
